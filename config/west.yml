@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: carrefinho
       url-base: https://github.com/carrefinho
+    - name: aiirononeko
+      url-base: https://github.com/aiirononeko
 
   projects:
     # ZMK 本体。公式の app/west.yml を取り込む
@@ -35,9 +37,9 @@ manifest:
       remote: caksoylar
       revision: v0.3
 
-    # Prospector ドングル
+    # Prospector ドングル（カスタムUI版）
     - name: prospector-zmk-module
-      remote: carrefinho
+      remote: aiirononeko
       revision: main
 
   self:
